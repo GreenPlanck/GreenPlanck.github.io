@@ -1,0 +1,276 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Hubble tension notes | Cosmology</title><meta name="keywords" content="Paper Reading"><meta name="author" content="Zhiyu Lu,zhiyulupmo@gmail.com"><meta name="copyright" content="Zhiyu Lu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hubble tension notes">
+<meta property="og:url" content="http://example.com/2022/12/11/Hubble%20tension%20notes/index.html">
+<meta property="og:site_name" content="Cosmology">
+<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/images/John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpeg">
+<meta property="article:published_time" content="2022-12-10T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-12-10T16:00:00.000Z">
+<meta property="article:author" content="Zhiyu Lu">
+<meta property="article:tag" content="Paper Reading">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpeg"><link rel="shortcut icon" href="/img/fish.jpg"><link rel="canonical" href="http://example.com/2022/12/11/Hubble%20tension%20notes/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hubble tension notes',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-11 00:00:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/mytranspancy.css"><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.2"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/fangao.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpeg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Cosmology</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Hubble tension notes</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-12-10T16:00:00.000Z" title="发表于 2022-12-11 00:00:00">2022-12-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-12-10T16:00:00.000Z" title="更新于 2022-12-11 00:00:00">2022-12-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Cosmology/">Cosmology</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">6</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Hubble tension notes"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="dd97dddb05728878ffd7eddc213446757ce79b1c2f1e4ef9351b6518e917f0a4">ca68b1500e829e6fb0cb1456370637801a7eabe706dc9dcaa6698ed78a3f36f1bd38eaa58c000d7515b5f56c7abb477ef67d8a4d2bfd598b947c4bf69c76fc13a843e336c6d130acfd4a4e56b085c9c7b3416316862f6606bd17f7cb456015b2af05935ec1e352b7cd3a0956a29ae0d4ed4892eaf9eb12b6205668c2b700489e321200320496125fe87d4b10b38940cf4890413625ecd057addaca3e39a8c39c59476846b8b1be7b1089b55a3b92a6a34a51f44a988e8ff238dc523ca1e8dbecfec189aafb8291c9e35efa7f21d36d84a364c88bdf7822e91985eef59c66dc70770d697c44b660730f9fac600f9419112427b9d74f7e793fe2f2958bb3feed20d4992c6113d938ad06e52ff13eb94e1952341ab966f126c29ecbdfabffa432287804b236790b1a19cd1e7d1c4a2edfa06dba8cba731654f46b2733386da9f9b107b6d7a954cfe850bb0bc309ae330eafe1fdf30bbf3b8b2dbbdeb1413f69034cc25e130b8841c90e00a6bcca763528cc759294aad442c2d69ebab33341f32b91c660ae104ff573782d18f99c81cfaa7bd80f3b59ffeb5bbb35fe871fb388223245ae1af98800490074f15d1008c6f267e20d79cec4649eeb4417e82d3495a273558bd5ec9ff777be4946e18ed13798b979128bc2108c4b0d7325bd06b5785a878d20c3697562b0e2fb0d7f89469f925caec5357d08ede4b3c53545c762cd134a01f4eacc2a751db7322b969369f350e86a0a9f6533e8c352c18be91cb2be5482fd57399922d9b737548454ae5ebc2f5dbba9d70a73cad75e41ac0abf0aca121f4f34437c53c97783c50cc6b89ff94da9a68796d1aff3b42777e6018ecc1b29956767c2b46b985af1e96aa6643044a2f83ca69cd3eeef32871bde2b99b1892f47e5643c24e0b6f803241965224ce6a4d717c3b214743db7aa171ad73b7348fc9cec6f320110a480bb69fedd39a723d23b2fffb0fa6f05a0e44564e46abe29ae39cff434b6a6104a397c48a60b9686a90a3883e69934f73b210280da8810ab0b6b7f3309a03fa8140a64a86e895b7dd5ce0379571b35e545fb0c471e2101ca3ac166cd252193c11d838dd2fbb11eab49b7ee744f85bc69c3df29a16b4689b86e85fa794664cc69e524b745cb59f9df8816cd1882a16740aa50a61ee3f7a010584d747aba6b7f046ced0a40a3829d61d8b0d1ab4580509a24af72eff0e09e07712586b3c3d0d0ff5f132b7dc15e81b495b6be3d44eba03b795be44e5640dd1caec2d2d6692a094f6e2df3706e290d0f9e7fcc8379c150509d5f90e0872ec0c520ebef7cb8dcf7a4ba68e7b3ab8d822f6fa90f14eae221408bbebda86c6565e0ccecedff45cd57abb10cbda421567272daa3a3543c7c13ee9564538414a56c5e03fcea46c479682e80820bf6f274d1e4b7c7aa22bf294cdbb557fc550f2cc109c4caca5878d15724f211c28605a50d20f5db2004829bb0e5213bb4cfa7cb000c0b4301a497a82387c661b46debcfb20dda06abf2c65e95d7e3e33ed2f3585a243724dc43e1551f7abae495e2e732b71e1200ae79bd07f85745a655446ea93b125ccb9ee58ac5e1da851f7e71ccb9f18f030095f983aee342114f1bdb531ffc52eaa173777811b08c06142a39ebf3da90d8f9b7dec1019169a31f92832f9abe87a54dc8961887afccd4c51670a1f1857ca70c45d1fa491486d806cb5429a528e3bd2a1923f47cde28af709b6a1860ef795610562f75750c1b0c0a4c86f87d88b91a7b935b3c002e491a0429ea23dcd81859397c8527710d233a09909c058dda1835d3600bc2ff0ef2315e70f6362729fe97655b5a3034cb5fbd0124b1409551499daa95a19a01e3c89592705ab9177104a4c2875e6a525b93816323bcee5b10b25bce8a4352c57b72c4c9ea568d93d4ac943f869452e8f8610a585f613716d9ba8b375c44024b2d42799679ffb0a3f59fd9ae42c84fa09a91ccbf0fbb558acadaaa2b8b96f017ff80e9f061b31ddd4828de8fd2ae5d28af906ae5d15aeaf5b6f15c9ea76e52490469e3ff2fa14a80446b3df593e3164a6076eb495983d420a52566adc78abf093bb715ce70792a9fc5332ce093c1814efe9ab4b895abb6231d6d197f4ae4ffc9ec85a98cb8793ed589eaefcbac7f8ff81f0eafda92e4c33afb0916988c7e015317d6b67c3c7e8183aa3e2bd03c076fe3e0a921cd6ebf2e1c44e285c63f0ec0d8b903f28999047c88b11fecbfd0111459704d38c80915646b00c1e9f20fba9279d8b0fc47dd5354870389ee6027f9b801381fd1def5b111c76456331b39debf1f70dc3d31e390bd25328a86877d00b25746ed659b717829f16ccb5fafd238496570d8d82b9c4cfaa6b1152e87e892ddba824c9a1f24cbc0890528710343d690715a1be8e3a1cbb9feb2e282406ac3b331dc9c9f4c371e8b5164caa73a95cca806d17c0db496391e0dc099e393479c59d6488252a2799d28cce3162ca4f95eb0cab8cec81bf3d4010a16811bb6e80305951276b20346584307456d18150056ab4ea6a587c2892e17ec648bb213e2681fb734c6e763c88bf9cde4b9b568fd26c6fe270d87663da47c85bed4f217c575633edd716836921db054fd4928e439a85e9bb5a119b7d6b9bdf4e6019c023ecb6010cf255b0e466af0082f9dcc938be41103f17919bda87907e4fadb992e86df5820faceb1c106661e9590e863f721086f11591257f188ca41329b1046f67cf28ffde52c652b0f782ce970fc80dd0063faadd46728eba231e31c033d21a98eb2c14d3391ab037f06e3ae897ff3d65f056b796c281bd3910b235bb90722ce7cc7fc6c30a78165a787f0fa856eb6f21e7ba3bfad68b9a8b6ce15da0b9512be9201b39ccb22608d76684c481a045281fb47fb05ac6be549a2e57fae2246a6e8a9a7b373a582e38bed58a524e2d1a1b38885cd374237466af122c363e812963fb9b6a232c4190c7f15a3ae057b26fb3e4d8e112886e1f550fadfbfcf26cf365c199e1aa399ad4ae6627f9f440e661506787d5c24ed90d7aa8b8c1156a3cfa3bad811741f2899422cb8004ad3ee5dcf49f4c38560981173b6455171d17cb27de5469ac70b21aca46883c393fb08cfa2e9b95e5228168eaed3c55a6175ce90267e80b075444654b0087ff354b4e1b27b1d829fb5997f8fae8feae995c4cdf3246b2468e698bf85a0f96324538aada8b0691b94a068c3965fa3e9f90eed9ff8f430fb8351eb22be3d8f382320ed52975945bb48717cc48c482dbf3875b1122a20b76718c383dee07f4b9aac7e2370627da37e7f9e70efbf713bb1266bfaa2db7451337e99fd34270ecefaef9990dc773623d684c663b3bca853cce077dc663123043954d3972300331b81f537e4ff14a55bbcf5f73d23ac4eb521300f5d323c40092814c2a91ff45f6db1aa0b07e0a2e3ff6c4d6d8357f40108ee4f7eb526e777893519313430aac147e230c83f25135965dfdd82f51a5ec4d339e73f4ae9c2e0afde9618949e5aa3964c5728c4094b96b561d826744ef63d6c922f6ec05b2e519baf5e8fb3e81420272d06b383040c0c54e6f23da8720f8f1b101aa1649ba592b4de2195ee6db5bfb35b2144fc841cf1d4511b3836490e5482fbb30521674ff5e88dbde732355125efa424ce61d880e3845565cb6fa712b41c5e9f6010b5a7eeace85809e3186f40d0884294a0429676dec3031ae67979ba88f390af49e933ee3990aaa3242b1f0f654be3ba51d9d58d47c2a12cfaacc18791bfbef9a20a1ed345d58fabaf72a72c65d34db9bd6a0d40e31d2f6bb30cc218e0086d4500971c76745538e0eda87515a077e82574aaa2494bf40d4f08c64afb744a2ef2ca4f6e92f2c0cd494d1b1ed387c8e98952c75590fd0d125cd6d918fde6e83e14fd9c9cba4282525e49eca311eec4a80b992d9b8b5d987fc281d5653b762315121eea650fb29075c34e18ab63f0addee994f5ee9ce8d2f892d49712ecd90c58f5d6187b0805b43d95a169281dd50cd41c457e24973d339d5c5d484e79f5583a67630ce879212a55b6623d3005542f59c09fe6ce5d3dcec39758d65854c425d0ae50f7b0b999c586fe019339d98fe3b3eb5dbf70a9ff370b3aa6cef1a9b86a0431a0a6839e2a8b5a94ae35a908eb8f21a490aa9a78aca4b976e812b14a17af4d6c486b3d9c49d773adcda643caf3891614d74357bb8a3454cdbdc52bdfa3bbdaa82c36e8aca91b1e0aff542f27a37f25bee8ef2c5e23f98555f138613d2823b591dd871e78e2622f51e2e9de4e492dd87da6a34c1f58f746f6a4378efc9cdb8a47687d62ec177c73f1e6268627aeb945d4f430e5c945e666d868df7c8f961c68d2da72c8654cc0b418839ae3cdc92eec251d2023dcef83a0cd620ac3874030367b2041134acb8fd8ca047f7b24a1a6f3fd4377a1d331c7afdb1abeb3c98fffaff97aeaf61c7598eca6934243b4e25d2e0c8c14e3b97863c68267791b970d457d43bf9d547e294be222f7e31a639b4bd6852d3c3b8c4ad4347be9442de87e3ef41e4ae3ff26f8e78c54828e033f17d789a07887558c73cb24eb72cfc0424d195b83b72fc9185b7fab02da4233c7d89e5fc2fd0a8cf7ffcafd0833f464a05feae98f5ebf80f63d452bc3afc8c73fb728f84ba25327278932a65c1665e7c020fdfeddb6c8b3ac0423fbfafef17db42097a0e2a0acfab90494caf4eb71ca8ce0039a1f324d0dd1afe98c794dac087695c7ed0ad7855570a5d3ca218c7721d6de306aa3e483de9be3585422fbc9101e4a010ccc9976c016622786da012431efccbb7edf8556666286a0bbc586cfac3d2a6b87a89641ff21698b16ebb870eb45f8f908f72a854ad039fa2fb8dd6d621e8d72ae4dfc370df6f1c1902e0daae296fd6e83c1edc06ab9326c9eb9e80dd1af15956c3c8c16ab774f6486ea30046e813ddcbef9fe48f9c4b3e167df96ab97501f0a428f22b4de93d1b5aa4a3365f48131f9a0e42e575ae609abc86cc328f3fa27689ff9f94df65b38f9a58b8eacf2cc4c2e25ec662841a351df3b273d29b69562a1790ee9dbd249b0ec72d844fd6b72983edf06e97453470b19c8f4462dcc7e67e4fe98afb31a369a25f4a115c4607342d562d3ac23c2986ba67fdfb4298582d0125fa187d50211d9b4c85bcd6170db272f2d402ad7777e8b73a23aac462b1a3e8cf900781db60e03e85739cc1eb80e80cab5fe3491ef988da2789c46bed820c38508ab692c379024273bb28e59157bb920dc90240ac4583188e72dd149671d5f11da946587a6ce3added392e2c1586aeedc1beb9180cf43f9a4ab6af1d2570828154cb2e73a205e695d6027cf6d34d4f8cf8c5293dcdf933bab7f184e31c698eea92426aed52b138de4702ce544b845a5add9bc65c0b69c725933f4d5e93ce2121c1fc1332b9388efeeaf72b92692bf3b6c181e259e8a5b42729dfe01c81e3dab4d4968a160f00ddeee2c9742fdce8f16824d2d31f63b4cfb092209282d8734fae046c03ca707218cb80841b06964c1a71e1cc34a349b2eeb5c42c38f0c17ec2fac0feef42c32bffd982a83db493a9d8e8eb00aed5debb22f7c3fc48da7eaec86770f0b5d793d5b576803f37e7f4732ae02b6ce6b7cd01b7a6833c3e05fff182fcce34c24b9ca51cf54a023f7c0fee3cf79664c2f6f8289e746cdbeee693a5ff85778b42e6f3d65eb600e51c686109eca93f59127f7492b96a274ab10ecaf1ec5740ae4e3692e8d57c29c5e1a0aa4c331290fd146229e5e46ae6f4f2d2bdfc0dbfe02ab44e8d11baadd46abd5889d7aa782bcf5aa5f7c7ed19cc3e2000306382fb08a79feec3c0749a03d0e2658a12d1abcc2205b8dcf83d59ab2e75f6339b8a8eccac674f9880b14600a12d6787a2f5bd31c7156988802d2124d6a1242a12aa9249ed1fa37fed01f0236afbd41f9e57e7bac851e7f31190b32ddd32befc6188d2c8c9dad5e1ac9607167341dd4a193b4d0c0dbcc1adccbf7d26a257a8e1599849f728ba312a517dd873a083cf1bab9aee1046fb42684717982d77655f2c7818f552106f7a22e98e143780b73618793dc4c7de65128c82395605f0ffd871d3ab1da05cc3471b61ee38ac990140d42b048fb1bf730cc5584959a0c997c137571570fd8c71356e7ab9a38384b2605923bda44b8da9be86627841d3def3d1f10528ccd0d7bc4feeff292718810a2816677d59bafff92cdce8d051199d2ff796c14f42bc132034b787b0fa61db0b72e0b3b3553c30b88b079f466fedef12b317c6810e38b27143192a45223a8f9de02f0b8cbd6b93b98005db5c54711c4a6164e0248684e8b892c4746d804682e7fb10c3e2530a72577363eaa64db9f51d7f6706b8149e19f388c07f628d2791cdf3835e22fb0eace78c6a20f08571b371bad70d17100c976bceae6d04d7b03ff1ceab38923c20c3c43412c501d4644af46a12172e3e2a1c021fd2cde4bf1909272e807c2c46c17e7e48cd05b7e7bd99fc1b5e9b1e3279a56d1fb5196de5fd03f4d9e94ae46d42de572bb15f3c7d86c83eacf2995dbc6ebaae26f9f6f08c18b528e838bfd25c36bae8400ab5a6065e84f4f4a5c6f48eefa9bc5e22956a89f6d7fb226abd7bd5d05017a2bae4e3e6fe4db1752ed94854a5b250f529057e727fde3c300f1d0012e8e1a11a6bf7791cd95504057dcd17601f7ab8f4a4c2bbde2b8839799288d04d7468f3d30c9d7a92e0eff8a4ac75ea86a346b73d448f57d1608a5abec051d1e9dca79c98b28981e4666ec5f0dabc58b43809ebb43cd9c073d650382fcb7186e1113ef0e10cffde0dcfbaf2c90330ecf74f1322f7a3504d1b7eef88d1defb10c7649b831a5c1a4273da2964abe81ae69d61fbe47b3eeffa9ee274829f806d9aede4920442463ac7842609430bf5c4c55b8989f58c3880aa53d11ae46c8f063e523d39bfd0822ecb450850069b4a3af79cb4e37947ab81c0267909ab85b9a3061a2f64544ab2614a21edac9e05866c9ab648c46e11945ce226a66d53966d0dd59bf09ec3ac99f630293fd5283d5fe50b7d93442a3d7e3783c95c754b61b3143b82bf55d59743e2224d6c6779f7ee1b6b753568ecd87f540fa9b8e024a1c5ab4bfe155f5af12e1bea10495832e9a6eb3a0e3c7cfacdde44ce64663c80c56c6078202f9bb1f586a5b4b286160c97641c9568ba819070cdb1897dc9c976160acd300f84ce2a9b768a3638ad83a9b5478900c8d736016f4db39e079e20c98820355925fe81fdc39d81a7cedb498f900e913c25e33153842185f9c07e8673e1c93a2d1ff365deb2259aa2d34e089915f9b477cdac3de677b8cf55abddb706d201990d543f263b38e90588328fe094885299a9e6dc0776124ebcad6cd64d2a490820b4f057b6b4f8c3e529f75602d3da5a3ea884940f26dd5ce18c681849ad35caabfbc6572eb49cd5a3dd882fc67b12097ee4f940513761041c66dcd6b9f92922e19a2f7673a8aec73ac84ae469d5d5e3ed9c8e92ff4e343161d48f84ffcb11b5265e43750d9647fe23b6b7d8f08e952a72113b5c68ba913d6d79b1a8f398b10dfe578598adc260978580149fa5359c3d0d2fdf568317e8bdaeb67809cbd15ca5ac3bc87621ca0dc2d0273e6ec464cd6be22151f11fe28bb86a1fc35781734bd9ce25c96055304fd3dbce36ba609c42ca4dbdaa5d1156ab6668d1e73f12be02d6ebb92a6b0b3a4c6af225a1a2472bc759bc4505da88c4b6eb6f8cd0228939a14565010cfcd69f8bde2a2e320480c8b2125f01c6ca364c5b1bd59eb082e2a148e302c24fa228f6c08401cd41d2e7b0ea0b395a955fc509031c60c5c3579d1a7aac91d4834435c9d508cf3e686f902df1f5e61e7b27dd433375381fc4cd75d11d8ec144c066186fc9c0e9a36b446a599b2a5d9b46f34745270898ad1a43dae0d8ca32b684df68951e1ffa2e88b6f968d2baacfc46af960da70b50f19e2b2494dafd0d0cc87e1cd4a925279b33b95b9a2bf3bd807c1b2b8fade7ada9909941386b3e13a9ccb86a16b1125f97298c3d70de0d3b38b21e38039187ca705ac02167c65d85914ba06b0d783e342680df438e29238a1e292e4f91b87a030d85631e6c819a512e77f9866f9d710e2e39dec9bb7bd09dbb0d787da606b545ecf3c3a2fb2d9e82c38ae3ef92bfd4d74fd6fef9d3f5c8e50104abeeb973d102861f1a92cd0581b26fb93031cfbf28ed1b2a242f571f4e9df51c129dfcc66b49d676914506bc4764e8b1ccdbc5116245d02f2b75ebff323db61366fa47f7013baa0dcd6332790f9e315c50c8a77641045ec4f38c4abf039fa5b5e5a9be6c0a4821a581b0e0fb03437e930d1a46772863cbd1ba7a4945b031817eff52829edaed0c7d078585da15b4f914f82e5bb18eb770ad25fd52e806fd9aa4844a9c0e82cfa350f85b667fa9c88722d38bb90c0ff8198aac462df002abc002df8380ea2d6a23b7779ea718c333a834614a938f5f44fa9d826d4fdbbb614b137840efc910bbcaefa5ae349c4331d652f0736e8bbb9a3b82d16811f7d7b16e2c7df476c7ed506e86b78673de58f906f18a3cfcc3443b96ebe2f43c1cdc551700c246ebae31adf9661ae574671981efcd8257600c8aecc64a2558fcf7630cdaa842e942d0534c4432022941df0fbdaba65aa3c375694ea91800baeedcc832a7e9e9d46f95e49c84c1f815f5057d64f922ba6b29e436b0f00ab9f0074ad59b43c7a78145225b55a08497f7e388ba22e6d7461bd4412e15730adc141c6297b567926cebe71ee180dde3991f0707c93b64c40e9a5bcb6542be16d5bd0cbed43f6e0308559d765f60995f1c2b62788b462032c7d5e0a697ddb652921b3ae5ee7fe1735fffecea97d5ebd027d396f02a3a8047ec4842db23607fa6561bb8abe887a8b2f0f714ff24a0759f0be4773839b0ccb5663bd9d5b114cc6fe3acc340f4cdd42202bc045cadbde20902281726d0bcbdfa02553239f711c1b623df3cb7018e65dc03f18f14eb52b684d82d77bb8f548a430b0aab5d6f884c4c4eea5234928cb9221ee0971f330f3828fc7bd05f4f0463962b5c571f1e00a407d7e3ac6925ebe89d01fa0aac5abcede885c13765621efdece46f12a4a22433b68e51cdc7495f470f94a761d342788a1b081ebf2167a33430bff7101a8f11a194ae4d6369097bb75250493875ebac3043c463b0ae13b59003a67faffa21d77446e30511a7389e3090a4bd223c0b43597dce63a53894f03fd47144f2cae229056be4eaa7c1ae5a1ee9c97245cdcb827bca24b41d8b4f59bbe48c138ea48e439c16a714809738bfaa5858c285834fa54918b9edecaadbbb1935fe1557abbbf548da9a097a7d4882c6c1844652c89845c9640f40975fd919625f666d33ede9511d12fe3f960136a17d856499fb9bfceb434a06c2830f8460be24e359414bf3c25d7cb4ee8fc884c194e60e48f74ba38197f568fb6478ba4a130521f345d2bd2602a7495223aa48c441d3a1a0290e737983237285aa9e97db8702114aa92f089a062783dd77d00d9463b791ce57d8970d18b434c95047a02892e0bf68754280624348bd26e430602637d0c7064537baa4a0756e6ed5ba457c462b383bab15e09a6b411809174188a819443580fd2365fddfc5f3916d315a2ec29e5f0a2376b1b98b01e87ae17a58311080e352425aa74c2e31055f029448219a8a7da0ba5c918337c23ef13fd560dfb006fa68ae965b558f11fa6a6bcc388de30962d6ba17856f49adaaf08f3982a0350912338841bb90f69ab5ee8add3b8dd867eeef95c24e5220e2b92de4808a68f3c83095fb8d85e785090a9964a152329f9f9c81c965cd6485fb72fddb3006ce69cb74e8054143bbc74522b39cbab51b9e87e01d3c1194cb751719b21763bdf255ebe64521fa069b97416dd5c7a7bd629b31e873cad0d6a463e10513a606283bb0745801391202cd80d67cc3cef578773b66753a65561948fb379c712b736cc93a8fb1cd5a15d687f0ced34a1aa3436ee950d29f4637e49a6397fbbaa45330c46dd53a6905242254cd0788c0af3966b0ea48b4ded1e8e5fcc61dd70bb8bf8ef2be33ef9de387b9f3d8a044467eed66b82ca5e05e2d8f56b37fdee77c40a09b701e996c485b5373d9055d4dfe7f3e8669870c524c6ff29f56a2011ece4ee0450629e006b23ea9151e4b51614149716dcb1c23e8a037a7ae7a23ea3d0bdce6849ea52008ef653a3ddb87407702b9d80d4161427aefccb802f89296f039fe0d0320666b2c56ea9ad2101426c97021bd380f5adb84dbe42fb74a1b9c0e1eaac3b7a45581b7fabd1994c7d43db1155028f40e77ab63baed0bfcee51004e3afde9cf05c020e64bea2f046e77773a1f5e28008dbcf25b2282bb1826d4a63ad8e21fd4a55fa81861ef85ca051621513066b14472a5a2d9a48605b26cddec59200afa9257444f01094893e9d2fd6b4e8e951c7ec2a1c3f438b240f007d0751fbac40c8879b499666f019b34b0e2150f20156fb4033aa875b32e76db9744476c87bd39d96119318505c5eed3d7ed340d6100f70e77443f8bee15a208ee771bec0eb5185b2c9ebf666b0765753969</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Zhiyu Lu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/12/11/Hubble%20tension%20notes/">http://example.com/2022/12/11/Hubble%20tension%20notes/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Cosmology</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Paper-Reading/">Paper Reading</a></div><div class="post_share"><div class="social-share" data-image="/images/John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpeg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/12/12/Towards%20understanding%20CMB%20anisotropies%20and%20their%20implications/"><img class="prev-cover" src="/images/monet/The%20Red%20Kerchief,%20Portrait%20of%20Madame%20Monet,%201873.jpeg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Towards understanding CMB anisotropies and their implications</div></div></a></div><div class="next-post pull-right"><a href="/2022/12/06/Massless%20neutrino%20&amp;%20AxionCAMB/"><img class="next-cover" src="/images/monet/Beach.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Neutrino</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/09/01/Bispectrum/" title="Bispectrum"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-09-01</div><div class="title">Bispectrum</div></div></a></div><div><a href="/2022/10/01/Gravitational%20Waves%20CMB%20Polarization%20and%20the%20Hubble%20Tension/" title="Gravitational Waves CMB Polarization and the Hubble Tension"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-01</div><div class="title">Gravitational Waves CMB Polarization and the Hubble Tension</div></div></a></div><div><a href="/2022/10/01/Evidence%20of%20Lensing%20of%20the%20Cosmic%20Microwave%20Background%20by%20Dark%20Matter%20Halos/" title="Evidence of Lensing of the Cosmic Microwave Background by Dark Matter Halos"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-01</div><div class="title">Evidence of Lensing of the Cosmic Microwave Background by Dark Matter Halos</div></div></a></div><div><a href="/2022/10/01/Halo%20mass%20function/" title="Halo mass function"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-01</div><div class="title">Halo mass function</div></div></a></div><div><a href="/2022/10/01/Individual%20SZ%20&%20Observed%20SZ%20&%20Stacked%20SZ/" title="Individual SZ &amp; Observed SZ &amp; Stacked SZ"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-01</div><div class="title">Individual SZ &amp; Observed SZ &amp; Stacked SZ</div></div></a></div><div><a href="/2022/11/01/Stacked%20Lensing%20&%20covariance%20matrix/" title="Stacked Lensing &amp; covariance matrix"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-01</div><div class="title">Stacked Lensing &amp; covariance matrix</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Disqus</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="disqus_thread"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/fangao.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Zhiyu Lu</div><div class="author-info__description">Phd.cosmo</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">23</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content toc-div-class" style="display:none"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-GDM-EDE-Microphysics-of-Early-Dark-Energy"><span class="toc-number">1.</span> <span class="toc-text">0.GDM+EDE:Microphysics of Early Dark Energy</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Background-dynamics"><span class="toc-number">1.0.1.</span> <span class="toc-text">Background dynamics</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Perturbation"><span class="toc-number">1.0.2.</span> <span class="toc-text">Perturbation</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%90%9E%E6%B8%85CMB-peak"><span class="toc-number">2.</span> <span class="toc-text">1.搞清CMB peak</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-H0-S8"><span class="toc-number">3.</span> <span class="toc-text">2.H0 S8</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#H-0"><span class="toc-number">3.0.1.</span> <span class="toc-text">$H_0$</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#S-8"><span class="toc-number">3.1.</span> <span class="toc-text">$S_8$</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%90%9E%E6%B8%85EDE%EF%BC%88%E4%BC%98%E7%BC%BA%E7%82%B9%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">3.搞清EDE（优缺点）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-model-GDM-%E5%8F%82%E6%95%B0%E5%AF%B9peak%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="toc-number">5.</span> <span class="toc-text">4.model GDM(参数对peak的影响)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#GDM%E5%8F%82%E6%95%B0%E5%AF%B9CMB%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="toc-number">5.1.</span> <span class="toc-text">GDM参数对CMB的影响</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/01/01/Confronting%20interacting%20dark%20radiation%20scenarios%20with%20cosmological%20data/" title="Confronting interacting dark radiation scenarios with cosmological data"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Confronting interacting dark radiation scenarios with cosmological data"/></a><div class="content"><a class="title" href="/2023/01/01/Confronting%20interacting%20dark%20radiation%20scenarios%20with%20cosmological%20data/" title="Confronting interacting dark radiation scenarios with cosmological data">Confronting interacting dark radiation scenarios with cosmological data</a><time datetime="2022-12-31T16:00:00.000Z" title="发表于 2023-01-01 00:00:00">2023-01-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/30/Phases%20of%20new%20physics%20in%20the%20CMB/" title="Phases of new physics in the CMB"><img src="/images/monet/WaterLilies.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Phases of new physics in the CMB"/></a><div class="content"><a class="title" href="/2022/12/30/Phases%20of%20new%20physics%20in%20the%20CMB/" title="Phases of new physics in the CMB">Phases of new physics in the CMB</a><time datetime="2022-12-29T16:00:00.000Z" title="发表于 2022-12-30 00:00:00">2022-12-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/12/Towards%20understanding%20CMB%20anisotropies%20and%20their%20implications/" title="Towards understanding CMB anisotropies and their implications"><img src="/images/monet/The%20Red%20Kerchief,%20Portrait%20of%20Madame%20Monet,%201873.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Towards understanding CMB anisotropies and their implications"/></a><div class="content"><a class="title" href="/2022/12/12/Towards%20understanding%20CMB%20anisotropies%20and%20their%20implications/" title="Towards understanding CMB anisotropies and their implications">Towards understanding CMB anisotropies and their implications</a><time datetime="2022-12-11T16:00:00.000Z" title="发表于 2022-12-12 00:00:00">2022-12-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/11/Hubble%20tension%20notes/" title="Hubble tension notes"><img src="/images/John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hubble tension notes"/></a><div class="content"><a class="title" href="/2022/12/11/Hubble%20tension%20notes/" title="Hubble tension notes">Hubble tension notes</a><time datetime="2022-12-10T16:00:00.000Z" title="发表于 2022-12-11 00:00:00">2022-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/06/Massless%20neutrino%20&amp;%20AxionCAMB/" title="Neutrino"><img src="/images/monet/Beach.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Neutrino"/></a><div class="content"><a class="title" href="/2022/12/06/Massless%20neutrino%20&amp;%20AxionCAMB/" title="Neutrino">Neutrino</a><time datetime="2022-12-05T16:00:00.000Z" title="发表于 2022-12-06 00:00:00">2022-12-06</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/images/John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpeg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Zhiyu Lu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.2
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container:not\([display]\)').forEach(node => {
+            const target = node.parentNode
+            if (target.nodeName.toLowerCase() === 'li') {
+              target.parentNode.classList.add('has-jax')
+            } else {
+              target.classList.add('has-jax')
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: '',
+      appKey: '',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function loadDisqus () {
+  var disqus_config = function () {
+    this.page.url = 'http://example.com/2022/12/11/Hubble%20tension%20notes/'
+    this.page.identifier = '/2022/12/11/Hubble%20tension%20notes/'
+    this.page.title = 'Hubble tension notes'
+  };
+
+  window.disqusReset = () => {
+    DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  if (window.DISQUS) disqusReset()
+  else {
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+
+  document.getElementById('darkmode').addEventListener('click', () => {
+    setTimeout(() => window.disqusReset(), 200)
+  })
+}
+
+if ('Valine' === 'Disqus' || !false) {
+  if (false) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+  else loadDisqus()
+} else {
+  function loadOtherComment () {
+    loadDisqus()
+  }
+}
+</script></div><link rel="stylesheet" href="/css/mytranspancy.css"><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
